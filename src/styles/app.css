@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  background: #f0f2f5;
+} 
+
+/* 美化输出区域滚动条 */
+.output-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #4e5a7e #23283a;
+}
+.output-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: transparent;
+}
+.output-scrollbar::-webkit-scrollbar-thumb {
+  background: #4e5a7e;
+  border-radius: 8px;
+  border: 2px solid #23283a;
+}
+.output-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #6b7bb8;
+}
+.output-scrollbar::-webkit-scrollbar-track {
+  background: #23283a;
+  border-radius: 8px;
+}
+body.dark, body.dark * {
+  scrollbar-width: thin;
+  scrollbar-color: #4e5a7e #23283a;
+}
+body.dark ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: transparent;
+}
+body.dark ::-webkit-scrollbar-thumb {
+  background: #4e5a7e;
+  border-radius: 8px;
+  border: 2px solid #23283a;
+}
+body.dark ::-webkit-scrollbar-thumb:hover {
+  background: #6b7bb8;
+}
+body.dark ::-webkit-scrollbar-track {
+  background: #23283a;
+  border-radius: 8px;
+}
+body.light, body.light * {
+  scrollbar-width: thin;
+  scrollbar-color: #b0b8c9 #f5f7fa;
+}
+body.light ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: transparent;
+}
+body.light ::-webkit-scrollbar-thumb {
+  background: #b0b8c9;
+  border-radius: 8px;
+  border: 2px solid #f5f7fa;
+}
+body.light ::-webkit-scrollbar-thumb:hover {
+  background: #c8d0e7;
+}
+body.light ::-webkit-scrollbar-track {
+  background: #f5f7fa;
+  border-radius: 8px;
+} 

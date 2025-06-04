@@ -1,0 +1,28 @@
+{
+  "name": "autopack",
+  "version": "1.0.0",
+  "main": "main/main.js",
+  "author": "你的名字",
+  "description": "现代美观的 Windows 编译工具",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development concurrently \"vite\" \"electron .\"",
+    "build": "vite build",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "antd": "^5.14.0",
+    "electron-updater": "^6.6.2",
+    "iconv-lite": "^0.6.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@electron/remote": "^2.0.2",
+    "@vitejs/plugin-react": "^4.0.0",
+    "concurrently": "^8.2.0",
+    "cross-env": "^7.0.3",
+    "electron": "^26.2.0",
+    "electron-builder": "^26.0.12",
+    "vite": "^4.4.0"
+  }
+}
